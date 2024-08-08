@@ -1,0 +1,11 @@
+public class Prueba_FOR {
+    public static void main(String[] args) {
+
+        int sum = 0;
+        for (int sumat=0; sumat<=10; sumat++){
+            System.out.println(sum + "+" +sumat);
+            sum = sum + sumat;
+        }
+        System.out.println("la suma de los numeros enteros entre 1 y 10 es: " + sum);
+    }
+}
